@@ -1,0 +1,16 @@
+{
+  "name": "symphony-orchestrator",
+  "version": "1.0.0",
+  "description": "Master orchestrator for the Symphony of Shells cognitive DAW",
+  "main": "orchestrate.js",
+  "scripts": {
+    "start": "node orchestrate.js",
+    "status": "node status.js",
+    "health": "bash healthcheck.sh",
+    "kill": "bash kill-all.sh"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "license": "MIT"
+}
